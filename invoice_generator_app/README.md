@@ -1,4 +1,4 @@
-# invoice_generator_app
+# Invoice_Generator_App
 
 A Invoice Generator App project in flutter .
 
