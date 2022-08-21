@@ -1,7 +1,8 @@
 # invoice_generator_app
 
-<!-- //https://user-images.githubusercontent.com/111499824/185804687-5a91cead-af18-46ea-b5cd-6ab43aee344b.mp4
- -->
+A Invoice Generator App project in flutter .
+
+## Screenshots 
 <img src="https://user-images.githubusercontent.com/111499824/185806644-20e4da93-7c7f-4e8e-9ec0-03df90740067.png" width="250" height="500" />
 <img src="https://user-images.githubusercontent.com/111499824/185806652-8c1bf162-9357-4982-9f33-9e4354da9fd4.png" width="250" height="500" />
 <img src="https://user-images.githubusercontent.com/111499824/185806657-535000f6-b043-449a-8344-950ab440bb16.png" width="250" height="500" />
@@ -20,7 +21,7 @@
 
 ## PACKAGES
 
-```dependencies:
+ dependencies:
   flutter:
    sdk: flutter
    cupertino_icons: ^1.0.2
@@ -28,7 +29,7 @@
    url_launcher: ^6.0.20
    share: ^2.0.4
 
-```
+
  
 
 
@@ -51,3 +52,5 @@
 //![14](https://user-images.githubusercontent.com/111499824/185806694-426eed85-f9eb-4bd7-ba75-d46229bde0d9.png)
 //![15](https://user-images.githubusercontent.com/111499824/185806699-8645b77d-8ef2-48b4-8eb7-9724306565b0.png)
 //![16](https://user-images.githubusercontent.com/111499824/185806702-2c324be3-e941-4579-b5e8-94ba83e645ab.png) -->
+<!-- //https://user-images.githubusercontent.com/111499824/185804687-5a91cead-af18-46ea-b5cd-6ab43aee344b.mp4
+ -->
