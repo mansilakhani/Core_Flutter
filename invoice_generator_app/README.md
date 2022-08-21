@@ -19,7 +19,7 @@ A Invoice Generator App project in flutter .
 <img src="https://user-images.githubusercontent.com/111499824/185806699-8645b77d-8ef2-48b4-8eb7-9724306565b0.png" width="250" height="500" />
 <img src="https://user-images.githubusercontent.com/111499824/185806702-2c324be3-e941-4579-b5e8-94ba83e645ab.png" width="250" height="500" />
 
-## PACKAGES
+## Packages
 
 ```dependencies:
   flutter:
