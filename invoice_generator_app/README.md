@@ -21,13 +21,14 @@ A Invoice Generator App project in flutter .
 
 ## PACKAGES
 
-'''dependencies:
+```dependencies:
   flutter:
    sdk: flutter
    cupertino_icons: ^1.0.2
    image_picker: ^0.8.4+7
    url_launcher: ^6.0.20
    share: ^2.0.4
+
 ```
 
  
