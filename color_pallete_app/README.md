@@ -1,16 +1,7 @@
-# color_pallete_app
+# Color_Pallete_App
 
-A new Flutter project.
+A new Color Pallete App Project in Flutter .
 
-## Getting Started
+## GIF
+https://user-images.githubusercontent.com/111499824/185809229-c6a9e41d-36c9-485f-99ac-58883ec8ddc9.mp4
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
