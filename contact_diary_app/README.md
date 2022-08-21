@@ -8,4 +8,15 @@ https://user-images.githubusercontent.com/111499824/185808997-5374f90c-4374-4787
 
 ## Packages 
 
+```dependencies:
+    flutter:
+     sdk: flutter
+     cupertino_icons: ^1.0.2
+     image_picker: ^0.8.5+3
+     url_launcher: ^6.1.4
+     share_plus: ^4.0.10
+    
+    
+```
+
 
