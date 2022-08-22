@@ -26,6 +26,7 @@ class _bmi_calcState extends State<bmi_calc> {
   bool isMale = true;
   String message = '';
   double result = 1;
+  //bool isFemale = true;
 
   @override
   void initState() {
@@ -69,25 +70,29 @@ class _bmi_calcState extends State<bmi_calc> {
                         child: Container(
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(10),
-                            color: !isMale
-                                ? const Color(0xff3b3c4d)
-                                : const Color(0xff1d1e33),
+                            color: Color(0xff3b3c4d),
+                            
                           ),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: const [
+                            children: [
                               Icon(
                                 Icons.female,
                                 size: 100,
-                                //color: Colors.white,
-                                color: Color(0xffeb1555),
+                                
+                                color: isMale
+                                    ? const Color(0xffeb1555)
+                                    : Colors.white,
                               ),
                               Text(
                                 'FEMALE',
                                 style: TextStyle(
                                   fontSize: 20,
                                   // color: Colors.white,
-                                  color: Color(0xffeb1555),
+                                  //color: Color(0xffeb1555),
+                                  color: isMale
+                                      ? const Color(0xffeb1555)
+                                      : Colors.white,
                                 ),
                               ),
                             ],
@@ -107,24 +112,24 @@ class _bmi_calcState extends State<bmi_calc> {
                         child: Container(
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
-                              color: isMale
-                                  ? const Color(0xff3b3c4d)
-                                  : const Color(0xff1d1e33)),
+                              color: Color(0xff3b3c4d)),
+                         
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: const [
-                              Icon(
-                                Icons.male,
-                                size: 100,
-                                //color: Color(0xffeb1555),
-                                color: Colors.white,
-                              ),
+                            children: [
+                              Icon(Icons.male,
+                                  size: 100,
+                                
+                                  color: isMale
+                                      ? Colors.white
+                                      : Color(0xffeb1555)),
                               Text(
                                 'MALE',
                                 style: TextStyle(
                                   fontSize: 20,
-                                  // color: Color(0xffeb1555),
-                                  color: Colors.white,
+                                  
+                                   color:
+                                      isMale ? Colors.white : Color(0xffeb1555),
                                 ),
                               )
                             ],
@@ -232,7 +237,7 @@ class _bmi_calcState extends State<bmi_calc> {
                                 FloatingActionButton(
                                   heroTag: 'weight',
                                   backgroundColor:
-                                      const Color(0xfffffff).withOpacity(0.1),
+                                      const Color(0x0fffffff).withOpacity(0.1),
                                   child: const Icon(
                                     Icons.remove,
                                     size: 40,
