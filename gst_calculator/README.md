@@ -1,6 +1,6 @@
 # GST_Calculator
 
-<!-- //A GST Calculator  Flutter project. -->
+A GST Calculator App Project in Flutter. 
 
 ## Screenshots
 <img src="https://user-images.githubusercontent.com/111499824/185810977-cdc11d96-7b5c-4db6-b130-240fe6f7dea2.png" width="250" height="500" />
