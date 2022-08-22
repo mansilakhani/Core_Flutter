@@ -1,4 +1,4 @@
-# kbc_app
+# KBC_APP
 
 A KBC Game App Project in Flutter
 
